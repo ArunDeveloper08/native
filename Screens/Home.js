@@ -1,6 +1,6 @@
 import { View, Text, TextInput, Switch, ToastAndroid, TouchableOpacity } from "react-native";
 import React, { useState } from "react";
-import { Button, Appbar, Avatar } from "react-native-paper";
+import { Button, Appbar, Avatar, Headline } from "react-native-paper";
 import SafeAreaAndView from "../Components/SafeAreaAndView";
 
 const Main = ({ navigation, title }) => {
@@ -30,6 +30,8 @@ const Main = ({ navigation, title }) => {
       >
         Click{" "}
       </Button>
+      <Headline style={{textAlign:"center" , marginTop:20 , width:"50%" , alignSelf:"center", marginTop:30}}>About me </Headline>
+      <Text style={{textAlign:"center"}}> Hey , My Name is Arun . I am HTML Developer </Text>
     </View>
   );
 };

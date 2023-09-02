@@ -12,8 +12,9 @@ const Main = ({navigation}) => {
   <TextInput placeholder='Email' style={styles.input}/>
   <TextInput placeholder='Password' secureTextEntry={true} style={styles.input}/>
   <View style={{alignItems:"center",flexDirection:"row", marginHorizontal:64}}>
-  <Text>Are You sure! </Text>
   <Checkbox onPress={()=>setCheck((prev)=>!prev)}status={check ? 'checked' : 'unchecked'}/>
+  <Text>Please accept all terms and conditions</Text>
+ 
   </View>
 
  
